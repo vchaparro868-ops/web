@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: Segoe UI;
+    background: #ddb56a;
+}
+#en {
+    width: 1000px;
+    /*border: 2px solid red;*/
+    margin: 5px auto;
+    display: flex;
+    background: #ffdfa3;
+    justify-content: space-around;
+}
+#tit {
+    padding-top: 50px;
+    font-size: 50px;
+}
+#en img {
+    width: 230px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 20%;
+}
+nav {
+/*border: 2px solid black;*/
+    width: 1000px;
+    margin: 1px auto;
+    background: #997a57;
+    padding: 15px 50px;
+}
+li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 50px;
+}
+a:hover {
+    background: #e2e7c2;
+    color: #000;
+    font-weight: bold;
+}
+a {
+    color: #FFF;
+    font-size: 25px;
+    padding: 10px 0;    
+}
+#pr{
+    width: 1000px;
+    /*border: 2px solid green;*/
+    text-align: center;
+    margin: 0 auto;
+    background: #ffebaa;
+}
+#pr h1 {
+    font-size: 40px;
+}
+
+#pr p {
+    font-size: 25px;
+}
+
+#pr img {
+    width: 300px;
+    height: 300px;
+}
+
+#destacados {
+    width: 1000px;
+    margin: 0 auto;
+    /*border: 2px solid green;*/
+    /*display: flex;
+    justify-content:space-around;*/
+    background: #ffebaa;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#destacados div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 45px;
+}
+
+#destacados img {
+    width: 200px;
+}
+
+#titulo_galeria, #texto_galeria {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#texto_galeria {
+    font-size: 25px;
+}
+/*Pagina Nosotros*/
+
+#nosotros {
+    width: 1000px;
+    margin: 0 auto;
+    background: #ffebaa;
+}
+
+#tit_nos {
+    font-size: 70px;
+}
+
+#marco1 {
+    display: flex;
+    gap: 35px;
+}
+#marco1 img{
+    width: 380px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 20%;
+}
+
+#marco2 {
+    display: flex;
+    gap: 35px;
+}
+#marco2 img{
+    width: 380px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 20%;
+}
+#marco1 p, #marco2 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#marco1 h2, #marco2 h2 {
+    font-size: 40px;
+}
+
+/*Pagina Galeria*/
+#tit_galeria {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px;
+    background-color: #ac8d6a;
+    color: #fff;
+    border-bottom: 6px solid #8f744c;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#gallery {
+  width: 1200px;
+  border: 2px solid #FFF;
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  /*align-items: center;*/
+  gap: 26px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  margin-bottom: 3px;
+  background: #ffebaa;
+}
+
+#gallery img {
+  /*width: 100%;*/
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+/*Pagina Contacto*/
+
+#redes {
+    /*border: 2px solid;*/
+    width: 1000px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    background: #ffebaa;
+}
+#redes img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /*background: white;*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+ transition: all .4s ease-in-out;
+}
+
+#redes img:hover {
+    transform: scale(1.6);
+}
+
+#contacto {
+    width: 1000px;
+    margin: 1px auto;
+    padding: 10px 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #190bef, #801ce7, #ae39e1, #cf58dd, #e879dc);
+}
+
+iframe {
+    margin: 15px 0 0;
+}
+
+/* Servicios */
+
+#marco {
+    width: 600px;
+    margin: 10px auto;
+    border: 2px solid #FFF;
+    text-align: center;
+    background: #ffebaa;
+}
+
+#mensaje {
+    margin-bottom: 20px;
+}
+
+#options {
+    font: 25px Tahoma;
+    /*border: 2px solid blue;*/
+    margin-bottom: 20px;
+}
+#boton {
+    padding: 10px;
+    background: #9e8942;
+    font: 20px Tahoma;
+    margin-bottom: 20px;
+}
+
+#pagar {
+    font: 25px Tahoma;
+}
+
+#vp {
+    width: 200px;
+    font: bold 25px Tahoma;
+    /*weigth: 700;*/
+    color: #e26262;
+    text-align: center;
+}
+
+/*comenzamos el pie de pagina*/
+footer {
+    width: 100%;
+    font-size: 25px;
+    background: #ecca7e;
+    padding: 25px;
+    text-align: center;
+}
